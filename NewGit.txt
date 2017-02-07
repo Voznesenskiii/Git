@@ -45,3 +45,4 @@ Changes to be committed:
         new file:   NewGit.txt
         new file:   index.html
 Proverka
+≈ще раз
