@@ -44,9 +44,252 @@ Changes to be committed:
 
         new file:   NewGit.txt
         new file:   index.html
-Proverka
-ֵשו נאח
+
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ ^C
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   NewGit.txt
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   NewGit.txt
+
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git add NewGit.txt
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   NewGit.txt
+        new file:   index.html
+
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ ^C
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   NewGit.txt
+        new file:   index.html
+
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   NewGit.txt
+        new file:   index.html
+
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   NewGit.txt
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   NewGit.txt
+
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git add NewGit.txt
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   NewGit.txt
+        new file:   index.html
+
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   NewGit.txt
+        new file:   index.html
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git commit -m "First commit"
+[master (root-commit) 3497cb4] First commit
+ 2 files changed, 47 insertions(+)
+ create mode 100644 NewGit.txt
+ create mode 100644 index.html
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   NewGit.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git add .
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   NewGit.txt
+
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git commit -m "second commit"
+[master 7e6587a] second commit
+ 1 file changed, 1 insertion(+)
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git add .
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git commit -m "third commit"
+[master f4a932a] third commit
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git remote add origin https://github.com/Voznesenskiii/Git.git
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git push -u origin master
+
+Voznesenskiii
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ ^C
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git push -u origin master
 
 
 
-234234234234234
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git push -u origin master
+Counting objects: 10, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 1.13 KiB | 0 bytes/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+Branch master set up to track remote branch master from origin.
+To https://github.com/Voznesenskiii/Git.git
+ * [new branch]      master -> master
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git clone https://github.com/jquery/jquery.git
+Cloning into 'jquery'...
+remote: Counting objects: 41834, done.
+remote: Total 41834 (delta 0), reused 0 (delta 0), pack-reused 41833
+Receiving objects: 100% (41834/41834), 26.36 MiB | 852.00 KiB/s, done.
+Resolving deltas: 100% (29495/29495), done.
+Checking out files: 100% (276/276), done.
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        jquery/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$ ^C
+
+ִלטענטי@Mitya MINGW32 ~/Desktop/Git (master)
+$
